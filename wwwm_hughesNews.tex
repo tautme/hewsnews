@@ -1,0 +1,163 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+
+\usepackage{newspaper}
+
+\date{\today}
+\currentvolume{1}
+\currentissue{1}
+
+%% [LianTze] The newspaper package also provides 
+%% these commands to set various metadata:
+
+%% The banner headline on the first page
+%%   (The colon after s: is to get a more
+%%   modern majuscule s in this font instead of 
+%%   the medieval tall s. For anyone interested 
+%%   in the history: 
+%%  http://medievalwriting.50megs.com/scripts/letters/historys.htm)
+\SetPaperName{Covered Way}
+
+%% The name used in the running header after
+%% the first page
+\SetHeaderName{The Covered Way}
+
+%% and also...
+\SetPaperLocation{Smackover Arkansas}
+\SetPaperSlogan{``We write what matters.''}
+\SetPaperPrice{Zero Dollars}
+
+
+% [LianTze] times (the package not the font) is rather outdated now; use newtx (see later)
+% \usepackage{times}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{picinpar}
+%uasage of picinpar:
+%\begin{window}[1,l,\includegraphics{},caption]xxxxx\end{window}
+
+
+%% [LianTze] Contains some modifications
+\usepackage{newspaper-mod}
+%%... so now you can redefine the headline and byline style if you want to.
+%% These can be issued just before any
+%% byline or headline in the paper, to
+%% individually style each article
+%%
+% \renewcommand{\headlinestyle}{\itshape\Large\lsstyle}
+% \renewcommand{\bylinestyle}{\bfseries\Large\raggedright}
+
+
+%%%%%%%%%  Front matter   %%%%%%%%%%
+
+\usepackage{lipsum}
+
+\begin{document}
+\maketitle
+
+\begin{multicols}{3}
+
+\byline{
+% \LaTeX{} 
+One two three boom
+% Let me think about it; give a minute
+ }{Micelle Reposa}
+ 
+Room to drag me under the bus so fast you. Shaving shaving beard.  The purpose is to love the poor love Birdy.  Is to love the poor it has nothing to do with whether or not you are poor it doesn't have to do with whether you're already loving the board I love the poor.  Show gods love because a lot of them have not seen God's love.  Whatever. Or a car crash.  
+You just asked me six questions and then I had answers to the first five and then I was trying to remember them all but then the last question is I'm still working on the questions and so it's a little difficult.  Let me tell you the first question which was gonna roll out yeah you do sound better, is the earlier question about the poor and then you said what are you and Annie go home and do y'all sit there and talk about like what that crazy person was doing and I will look at that well let me regurgitate my wisdom because people say I'm always right and very wise is that I would say no I don't do that because that would be gossiping.  
+
+%The package is basically a redefinition of the \verb+\maketitle+ command.  The model was the New York Times---hopefully I haven't violated any copyright laws.  I also had to redefine the plain pagestyle.  It kept me busy for a few nights after work.  The rest is packages other people have written.
+
+The twenty eighth day of May in the year of twenty and twenty one was a near summer day with the coolness and sunshine that makes a day worth spending outside.  
+
+
+
+%\begin{window}[2,r,\includegraphics[width=1.0in]{atom.jpg},\centerline{The Atom}] The \verb+multicol+ package allows using multiple columns without starting a new page.  Using floats is not possible in a columns environment, however with the \verb+picinpar+ package, I can set a picture inside a block of text---just like you one you see here.  Isn't \LaTeX{} cool?
+%And now we're just filling more space, and yet more space.  
+%\end{window}
+
+\closearticle
+
+
+\headline{Adam Hughes News}
+%This is just an example to fill up some space, but as long as I have your attention, I'll give some newspaper advice.
+Don't talk about my friend like that.  This is the time we have and we are not guaranteed any other moment.  Do we get aggitated about.   yeah because that's the way of the world and it feels good in the moment but we don't really know the true pleasure of also being in connection with God but once we get a taste of that then we realize like wait a minute all that stuff that he was talking about don't do this don't do that 10 Commandments this content of my meds that even the stuff that doesn't make sense it ends up making sense because we start.  
+
+We start to see the process where oh wow that I didn't do this in this in this this this this this and then after a long time practicing those things if you see the connection where it goes all the way around and it flips through all these different dimensions and it's like a mystery of how it even happened but then you come back to the beginning and you just said yourself well I wanna follow God's commands because even though I don't know how it happened I know what the outcome is and I know what it does feel like to be closer to God. Keep on practicing that and it is a practice just like you asked me do the thoughts come to you and then you have to review them it's not like oh it's a one and done it's like oh after I do it and I do it a practice and get better and better at it and it just keeps getting better and better in the mysterious ways that happens I don't know what's going on but I sure do know I like the end result of being in communion with God and and how that relates totally to the things we experience in this world all the heavenly stuff like that. .Being with people who are also in that zone and it's like once you're with them and you experience that there's nothing in this world you trade for gold silver Ferraris you sacrifice at all and then you stop caring about the material stuff you stop caring about the wealth in the money and the food and the pleasures and we realize the time we have with people is the most important thing and so we cultivate it and we keep doing it and it's almost like.  
+
+I've experienced where I think to myself and this is relevant to right now me and you where I know what's healthy for me to eat and I know like if somebody cared about me well and they had to fix my food will they fix the food the certain way and they feed it to me and it's like the food I don't even like all the sudden I wanna eat it just because it's healthy and just because I know God wants me to be healthy and like the stuff I used to eat when I was in that mindset like now I go back and I'm like.  And get water even though I really want to Coke how did I go to the the the the the gravy covered chicken fried steak in choose oatmeal to eat and it was like the reason was going all the way back to the time we have with people it's like the food doesn't matter it's the time that I'm getting to spend eating the food with the person I'm with it weird.  
+
+%I suppose we could also show how an equation is type set:
+
+%\begin{displaymath}
+%x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+%\end{displaymath}
+
+%and there you have it.  
+
+%\lipsum[1-4]
+
+\closearticle
+\headline{Wall Street with Wallace}
+Explain what just happened no offense but your last expose what you went through it went through this popularity contest relinquished I also how do you say preface and practicing and practicing this with no take no offense.  Don't let the sun so if you too much but your last expose I found found offensive because you just went through this whole popularity contest thing when popularity doesn't mean anything and then you said I'm hanging out with people because I want to be around popular people and then you said you want to be popular and have all these times.  Away from the world and the worlds ways of doing that weird stuff.  And that's exactly what I just said was a little offensive because you saying that I'm shallow enough to to to to not introduce somebody say something because they're not popular in and all that stuff oh Michelle.  
+
+Oh and scholarly mustard someone with the connection.  Temple here's a very good example that will take your expose and expose that it into a pancake do you think Zack is popular in a fancy with all his stuff has he ever met my sister no I just told you.  Because I was correct then I would've already introduced him to my sister squish pancake flat.  Geniuses that I'm usually right and I'm very wise.  Play it with a hint – dump truck load of sarcasm.  
+\closearticle
+
+%\headline{Memorial Day 2021}
+%
+%\begin{window}[2,r,\includegraphics[width=1.3in]{Raising_the_Flag_on_Iwo_Jima,_larger_-_edit1.jpg},\centerline{Raising the Flag}] On Friday morning, February 23, 1945, four days after the Marines landed at Iwo Jima, Joe Rosenthal was making his daily visit to the island on a Marine landing craft when he heard that an American flag was being raised atop Mount Suribachi, a volcano at the southern tip of the island. Three of the men in the photo where later killed in fighting on the island.  Three of the men in the photo where later killed in fighting on the island.  Three of the men in the photo where later killed in fighting on the island.
+%\closearticle
+
+%\headline{December 23, 1944}
+\headline{Capt. Mont F. Stephensen}
+``A mormon from salt lake city, gosh... he was a great guy, he was killed later on, o gee... He was my buddy. You know, your lucky if you end up in life with one real buddy and I did that, and he was it." - 1st Lt. Jack L. Turner
+
+%https://b26.com/guestbook/2002.htm
+%Date:
+%5/5/2002
+%Time:
+%10:55:48 PM
+% 
+%Mont Fermore Stephensen BombGp: 397 Squadron: 599 Years: 1943-44 Location: Gardner Field, Calif. I am looking for information about my uncle Mont Stephensen. Lost in action December 23, 1944. The picture on Andy Andersons page is the same one that I have in my home. Thanks for your help. Mont
+
+%Date:
+%5/7/2002
+%Time:
+%8:17:10 AM
+% 
+%My brother, Capt. Mont Fermore Stephensen was a pilot, and squadron commander of a B26. We are trying to secure information to contribute to the Confederate Air Force Museum in Mesa, Arizona. Mont and his crew went down over Germany on Dec. 23, 1944. His plane was Draggin' Lady No. 3. 
+% 
+%Crew members were Lt. Elmer R. Borden, Lt. Laverne F. Grundman, St. Robert J. Kinney, St. John L. Grapes, T/Sgt. William E. Bower, S/Sgt. Lynn E. Rose, Jr., S/Sgt. Harry H. Watson and S/Sgt. James B. Galati.
+
+\begin{window}[2,r,\includegraphics[width=1.3in]{43-34434-Page-4-copy.jpg},\centerline{Eller Railroad Bridge}] Mont Fermore Stephensen had enlisted in the United States Army Air Forces. Served during World War II. Stephensen had the rank of Captain. His military occupation or specialty was Pilot. Service number assignment was O-727795. Attached to 397th Bomb Group, 599th Bomb Squadron. #43-34434 incident
+%%https://www.honorstates.org/index.php?id=388508
+%
+%43-34430, 397BG, 599BS, "HUNCONSIDIOUS", Code 6B-B, Missions flown 4, MARC 11985
+%1.Lt. William P.Cook; F/O Arthur J Lefavre; Sgt Eric M Honeyman; S/Sgts Ward C Swalwell, Jr; Frank G Lane, Jr; Maurice J Fevold (All KIA). 
+%%https://b26.com/page/marauder_missions_december_23_1944.htm
+\closearticle
+
+
+\headline{1.Lt. Robert E. McCarthy}
+Robert E McCarthy is buried or memorialized at Plot E Row 4 Grave 38 Luxembourg American Cemetery Luxembourg City, Luxembourg. This is an American Battle Monuments Commission location.
+%43-34139, 397BG, 599BS, ``TOOT SWEET'', Code 6B-Z, Missions flown 36, MARC 11986 
+%15 Aug 44 to 23 Dec 44 shot down, circumstances unknown. 1.Lt. Robert E. McCarthy; 2.Lt's Charles F Abel; Harold T Ptaskiewicz; T//Sgt Clinton B Mathews; S//Sgts Ellis J Williamson; David E Hyre. (McCarthy, Ptaszkiewicz, Matthews, KIA; rest of crew, POWs) 
+%Ellis J. ``Willie'' Williamson, aka ``Mr. Willie'' tells the story here on internet video: ``Gallery Furniture - Mattress Mack Sits Down With World War II Veteran Ellis J. Williamson'' 24 minute interview.
+%https://www.youtube.com/watch?v=jYhApho19ro
+
+%http://www.polkcountytoday.com/yauponcover121419.html
+%https://www.youtube.com/watch?v=63AoIEijbhs
+\closearticle
+
+\end{window}
+
+%\closearticle
+
+\end{multicols}
+
+\end{document}
